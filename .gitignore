@@ -58,4 +58,4 @@ target/
 
 # User
 werobot_session
-src/werobot_token.py
+src/werobot_config.py

@@ -3,8 +3,8 @@
 
 import werobot
 try:
-    import werobot_token
-    _TOKEN = werobot_token._TOKEN
+    import werobot_config
+    _TOKEN = werobot_config._TOKEN
 except Exception, e:
     _TOKEN = 'tokenhere'
 
@@ -36,7 +36,7 @@ def echo_voice(message):
 
 @robot.handler
 def echo_all(message):
-        return 'Hello World! ALL!'
+        return u'Hello World! 我是大叔!'
 
 
 robot.run()

@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+_TOKEN="token"
+
+_MYSQL_HOST = "localhost"
+_MYSQL_USER = "root"
+_MYSQL_PW = "mysql_pw"
+_MYSQL_DB = "mrobot"
