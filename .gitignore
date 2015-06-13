@@ -55,3 +55,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# User
+werobot_session
+src/werobot_token.py
